@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-2 exam result</title>
+</head>
+<body>
+    <div>
+        <span>
+            Maths =
+        </span>
+        <span id="m">
+
+        </span>
+    </div>
+    <div>
+        <span>
+            English =
+        </span>
+        <span id="e">
+            
+        </span>
+    </div>
+    <div>
+        <span>
+            Hindi =
+        </span>
+        <span id="h">
+            
+        </span>
+    </div>
+    <div>
+        <span>
+            Social science =
+        </span>
+        <span id="s">
+            
+        </span>
+    </div>
+    <div>
+        <span>
+            science =
+        </span>
+        <span id="sic">
+            
+        </span>
+    </div>
+    <div>
+        <span>
+            Totle =
+        </span>
+        <span id="tt">
+            
+        </span>
+    </div>
+    <div>
+        <span>
+            Percentage =
+        </span>
+        <span id="pr">
+            
+        </span>
+    </div>
+
+
+    <script>
+        var math=69;
+        var eng=97;
+        var hindi=60;
+        var ss=89;
+        var sic=99;
+        var tt=math+eng+hindi+ss+sic;
+        var pr=(tt/500)*100;
+
+        document.getElementById("m").innerHTML="69";
+        document.getElementById("e").innerHTML="97";
+        document.getElementById("h").innerHTML="60";
+        document.getElementById("s").innerHTML="89";
+        document.getElementById("sic").innerHTML="99";
+        document.getElementById("tt").innerHTML=tt;
+        document.getElementById("pr").innerHTML=pr+"%";
+        
+
+    </script>
+</body>
+</html>

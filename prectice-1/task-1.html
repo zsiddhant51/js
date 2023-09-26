@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 1 principal amount </title>
+</head>
+<body>
+    <div>
+        <span >
+            principal amount(p)=
+        </span>
+        <span id="p">
+            
+        </span>
+    </div>
+    <div>
+        <span >
+            intrest rate(r)=
+        </span>
+        <span id="r">
+            
+        </span>
+    </div>
+    <div>
+        <span >
+            time period in years(n)=
+        </span>
+        <span id="t">
+            
+        </span>
+    </div>
+    
+    <div>
+        <span >
+            intrest amount =
+        </span>
+        <span id="intrest">
+
+        </span>
+    </div>
+    <div>
+        <span >
+            total amount with intrest=
+        </span>
+        <span id="ta">
+            
+        </span>
+    </div>
+
+
+    <script>
+        var p=1000;
+        var i=5;
+        var t=3;
+        var intrestrate=(p*i*t)/100;
+        var totalamount=p+intrestrate
+
+
+        document.getElementById("p").innerHTML="1000$";
+        document.getElementById("r").innerHTML="5%";
+        document.getElementById("t").innerHTML="3";
+        document.getElementById("intrest").innerHTML= intrestrate;
+        document.getElementById("ta").innerHTML= totalamount;
+
+    </script>
+</body>
+</html>
