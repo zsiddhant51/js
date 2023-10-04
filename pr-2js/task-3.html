@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 1 principal amount </title>
+</head>
+
+<body>
+    <script>
+        var p = 1000;
+        var i = '';
+        var t = 4;
+
+
+
+        if (t < 3) {
+            console.log("minimum year for lone is 3 years")
+        }
+
+        if (t > 3) {
+            if (t <= 5) {
+                i = 3;
+            } else {
+                if (t <= 8) {
+                    i = 5;
+                } else {
+                    if (t <= 12) {
+                        i = 12;
+                    } else {
+                        i = 15;
+                    }
+                }
+            }
+        }
+
+        var intrestrate = (p * i * t) / 100;
+        var totalamount = p + intrestrate
+
+        console.log("totel intrest rate =" + intrestrate)
+        console.log("totel amount =" + totalamount)
+
+
+
+    </script>
+</body>
+
+</html>
